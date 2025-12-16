@@ -1,0 +1,217 @@
+body {
+    overflow-x: hidden;
+}
+
+.maincon {
+
+    background-color: rgb(247, 249, 250);
+
+}
+
+.maincover {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 249, 250);
+}
+
+.topm {
+    text-align: center;
+}
+
+.topm p {
+    font-size: 14px;
+    color: blue;
+    margin-top: 30px;
+    margin-bottom: 8px;
+
+}
+
+.topm h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.topm span {
+    color: blue;
+}
+.topmh{
+    max-width: 800px;
+  
+}
+.topmain{
+      display: flex;
+    justify-content: center;
+}
+.topm h6 {
+    
+    font-size: 18px;
+  
+
+}
+
+/* cards */
+.mone {
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+}
+
+.carxm {
+    width: 250px;
+    height: 460px;
+    background-color: white;
+    border-radius: 16px;
+    /* border: 1px solid black; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.topi img {
+    width: 250px;
+    height: 250px;
+    border-radius: 16px 16px 0px 0px;
+    object-fit: cover;
+
+}
+
+.topi h6 {
+    text-align: left;
+    margin: 10px 20px 5px;
+    font-weight: bold;
+}
+
+.topc p {
+    text-align: left;
+    margin: 5px 20px 10px 5px;
+
+}
+
+
+.topc {
+    font-size: 12px;
+    padding: 0px 16px;
+
+}
+
+.botom {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.botom i {
+    color: rgb(121, 116, 110);
+}
+
+.botom button {
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.bottom {
+    text-align: center;
+    height: 300px;
+}
+
+.bottom h2 {
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+.bottom p {
+    font-size: 16px;
+    width: 800px;
+    color: rgb(102, 97, 97);
+}
+
+.bottom button {
+    font-size: 16px;
+    font-weight: bold;
+    width: 280px;
+    height: 60px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+    margin-top: 30px;
+}
+
+.botmain {
+    display: flex;
+    justify-content: center;
+}
+.carxm:hover{
+    transform: scale(1.1);
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 480px) {
+*{
+overflow-x: hidden;    
+}
+
+
+.maincon {
+    background-color: rgb(247, 249, 250);
+
+}
+
+.maincover {
+    display: block;
+    background-color: rgb(247, 249, 250);
+}
+
+.topm {
+    text-align: center;
+}
+
+.topm p {
+    font-size: 14px;
+    color: blue;
+    margin-top: 30px;
+    margin-bottom: 8px;
+
+}
+
+.topm h1 {
+    font-weight: bold;
+    margin-bottom: 14px;
+
+}
+
+.topm span {
+    color: blue;
+}
+.topmh{
+    max-width: 300px;
+  
+}
+.topmain{
+      max-width: 400px;
+}
+.topm h6 {
+    font-size: 16px; 
+
+}
+
+/* cards */
+.mone {
+    display: block;
+    margin: 30px;
+}
+.botmain{
+    display: none;
+}
+.carxm {
+   margin: 0px auto 20px;
+}
+.carxm:hover{
+    transform: scale(1.0);
+}
+}

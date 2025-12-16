@@ -1,0 +1,315 @@
+/* top  */
+body {
+    overflow-x: hidden;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 249, 250);
+
+}
+
+.maincont {
+    background-color: rgb(247, 249, 250);
+    max-width: 1400px;
+    height: 700px;
+}
+
+.top {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.top h1 {
+    font-weight: bold;
+}
+
+.top p {
+    font-size: 16px;
+}
+
+.plans {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.cards {
+    border: 1px solid rgb(245, 245, 245);
+    border-radius: 16px;
+    padding: 26px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px 1px rgb(218, 213, 213);
+
+}
+.cards:hover{
+      transform: scale(1.1);
+}
+
+.cards button {
+    background-color: rgb(193, 235, 249);
+    border-radius: 10px;
+    padding: 10px;
+    width: 280px;
+    border: none;
+}
+
+.cards p {
+    margin-left: 0px;
+    font-size: 12px;
+}
+
+.cards span {
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.cards h5 {
+    margin-bottom: 10px;
+}
+
+.cards h2 {
+    margin-bottom: 26px;
+}
+
+.cards h6 {
+    font-size: 14px;
+    margin-top: 26px;
+    font-weight: bold;
+}
+
+.cards ul {
+    font-size: 14px;
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 10px 0px;
+
+}
+
+.cards li {
+    margin: 10px 0px;
+}
+
+.rec {
+    border: 1px solid rgb(13, 84, 215);
+    box-shadow: 1px 1px 0px 0px rgb(13, 84, 215);
+}
+
+.rect p {
+    font-size: 16px;
+    color: white;
+    border: 1px groove rgba(126, 14, 231, 0.936);
+    background-color: rgba(126, 14, 231, 0.936);
+    text-align: center;
+    border-radius: 10px;
+    width: 210px;
+    padding: 10px;
+
+}
+
+.rect {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+/* bottom */
+.seccont {
+    background-color: rgb(247, 249, 250);
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    margin-top: 60px;
+}
+
+
+.seccont h2 {
+    font-weight: bold;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 500px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    font-size: 15px;
+    margin: 10px 0px;
+    font-size: 14px;
+}
+
+.active1,
+.collapsible:hover {
+    background-color: #555;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active1:after {
+    content: "\2212";
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    width: 500px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #dad8d8;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.bbb {
+    text-align: center;
+    margin: 30px;
+}
+
+.bbb a {
+    text-decoration: none;
+
+}
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width: 480px) {
+
+   /* top  */
+
+
+.cont {
+    display: block;
+    justify-content: center;
+    background-color: rgb(247, 249, 250);
+
+}
+
+.maincont {
+    background-color: rgb(247, 249, 250);
+    max-width: 400px;
+    height: inherit;
+}
+
+.top {
+    text-align: center;
+   margin: 0px 10%;
+    padding-top: 40px;
+      max-width: 320px;
+
+}
+
+.top h1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.top p {
+    font-size: 14px;
+}
+
+.plans {
+    display: block;
+    
+    justify-content: center;
+}
+
+.cards {
+    border: 1px solid rgb(245, 245, 245);
+    border-radius: 16px;
+    padding: 26px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px 1px rgb(218, 213, 213);
+    margin: 20px auto;
+
+}
+
+
+
+
+
+/* bottom */
+.seccont {
+    background-color: rgb(247, 249, 250);
+    height: inherit;
+    display: block;
+    margin:50px auto 0px;
+    max-width: 400px;
+    
+}
+
+
+.seccont h2 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px auto 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    max-width: 350px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    font-size: 15px;
+    margin: 10px 6%;
+    font-size: 14px;
+}
+
+.active1,
+.collapsible:hover {
+    background-color: #555;
+}
+
+
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    max-width: 350px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #dad8d8;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px auto;
+}
+
+.bbb {
+    text-align: center;
+    margin: 30px 30px 0px;
+}
+
+.bbb a {
+    text-decoration: none;
+
+}
+.cards:hover{
+      transform: scale(1.0);
+}
+
+}

@@ -1,0 +1,201 @@
+.lay{
+    display: flex;
+    justify-content: center;
+     background-color: rgb(247, 249, 250);
+}.topb{
+    display: flex;
+    gap: 15px;
+    max-width: 1060px;
+    
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 5px 15px;
+    width: 200px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.topc button{
+    margin: 0px 5px;
+}
+button:active{
+    color: blue;
+}
+button:hover{
+    color: blue;
+}
+.maincont{
+    padding-top: 20px;
+}
+.search-icon {
+    margin-right: 10px;
+    color: #888;
+}
+
+input[type="text"] {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 14px;
+    color: #333;
+    width: 100%;
+}
+.topb button{
+    border: 1px inset black;
+    border-radius: 20px;
+    background-color: white;
+    padding: 5px 15px;
+    height: 30px;
+    font-size: 12px;
+}
+.bi-funnel{
+    font-size: 24px;
+}
+/* card */
+
+.card{
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card img{
+    height: 200px;
+}
+  
+.mone{
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+}
+#cbo{
+    background-color: rgb(199, 228, 255);
+    padding: 5px;
+    color: blue;
+    border-radius: 5px;
+    width: 100px;
+}
+.cto h6{
+    font-size: 12px;
+    margin: 10px;
+}
+.cto h4{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.ctos{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.ctos2 b{
+    color: rgb(235, 173, 59);
+}
+.ctos2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cline{
+    border-bottom: 1px solid rgb(224, 213, 213);
+}
+.cbo{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px 0px;
+}
+.cbo h6{
+    font-size: 12px;
+}
+.cbo a{
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.add-to-cart-btn{
+    border: 1px groove black;
+    background-color: black;
+    color:white;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.add-to-cart-btn:hover{
+    background-color: white;
+    color:black;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+/* responsive */
+@media screen and (max-width: 480px) {
+    .topa {
+        max-width: 400px;
+    }
+    .topa h2{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px 0px 0px;
+    }
+    .topa p{
+        font-size: 12px;
+        padding: 10px 0px 0px;
+        
+    }
+.lay{
+    display: block;
+    max-width: 500px;
+   
+}.topb{
+    display: block;
+  
+   
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 250px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+
+.topb button{
+    border: 1px inset black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 20px;
+    height: 30px;
+    font-size: 12px;
+}
+
+
+.topc {
+    display: grid;
+    gap: 10px;
+}
+/* card */
+
+.card{
+    margin: 20px  auto;
+}
+.mone{
+    display: block;
+    
+    margin: 0px;
+}
+.card:hover{
+    transform: scale(1.0);
+}
+}

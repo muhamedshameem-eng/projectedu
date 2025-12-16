@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillForge Learning Hub</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="contact.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+   
+</head>
+
+<body>
+
+<!-- Navbar -->
+    <div class="navy">
+        <nav class="navbar navbar-expand-lg  ">
+            <div class="container scontainer">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <a class="navbar-brand" href="index.html"><img src="Assets/logomain.png" height="50px" /></a>
+                <div class="CCCC">
+
+                    <a class="imghid" href="index.html"><img src="Assets/logomain.png" height="50px" /></a>
+
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <div class="subv">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 navside">
+                                <li class="nav-item">
+                                    <a class="nav-link  " href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active " href="course.html">Courses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="mentor.html">Mentors</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="plans.html">Plans</a>
+                                </li>
+
+                                <li class="nav-item  bell">
+                                    <div id="cart-actions"></div>
+                                        
+                                        
+                                </li>
+                                <li class="nav-item">
+                                    <a class="log" href="login.html">Log In</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="sign" href="register.html">Get Started</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+        </nav>
+    </div>
+
+      <div class="mnav">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="Assets/logomain.png" height="40px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="imghid" href="index.html"><img src="Assets/logomain.png" height="50px" /></a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link  " href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  " href="course.html">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="mentor.html">Mentors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="plans.html">Plans</a>
+                        </li>
+
+                        <li class="nav-item  bell">
+                            <a id="cart-action" href="cart.html" class="bi bi-cart3"style="display:inline-block;padding:8px 12px;border-radius:6px;color:black;text-decoration:none;" onclick="renderViewCartButton()"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="log" href="login.html">Log In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="sign" href="register.html">Get Started</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-box-arrow-in-up"></i></button>
+
+    <div class="contact">
+
+        <div class="layout">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contactleft">
+
+                <div class="left">
+                    <h2>Get in touch</h2>
+                    <hr>
+                    <input type="hidden" name="access_key" value="9996bc2b-fa0e-4074-b8ec-d251fc0cccd7">
+                    <input type="text" style="border: 1px solid black;" name="name" placeholder="Your Name"
+                        class="contact-inputs" required>
+                    <input type="email" style="border: 1px solid black;" name="email" placeholder="Your Email "
+                        class="contact-inputs" required>
+                    <input type="text" style="border: 1px solid black;" name="name" placeholder="Subject"
+                        class="contact-inputs" required>
+                    <textarea name="message" style="border: 1px solid black;" placeholder=" Your Message"
+                        class="contact-inputs" required></textarea>
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    <button type="submit">Submit<img src="Assets/img/arrow_icon.png" alt="arrow"></button>
+
+                </div>
+            </form>
+            <div class="right">
+                <img src="Assets/img/right_img.png">
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="ftop">
+            <div class="sec1">
+                <img src="Assets/logofoot.png" style="width: 100px;" />
+                <p>Empowering learners worldwide with quality education and expert instruction.</p>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-instagram"></i>
+            </div>
+
+            <div class="sec2">
+                <p><b>Company</b></p>
+                <p>About Us </p>
+                <p>Careers</p>
+                <p>Press</p>
+                <p>Contact</p>
+            </div>
+
+            <div class="sec2">
+                <p><b>Resources</b></p>
+                <p>Blog</p>
+                <p>Help Center</p>
+                <p>Community</p>
+                <p>Became Instructor</p>
+            </div>
+
+            <div class="sec2">
+                <p><b>Legal</b></p>
+                <p>Terms of Services</p>
+                <p>Privacy Policy</p>
+                <p>Cookie Policy</p>
+                <p>Accessability</p>
+            </div>
+        </div>
+        <div class="fbot">
+            <div class="fline"></div>
+            <p> &copy; 2025 SkillForge Learning Hub. All rights reserved.</p>
+        </div>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

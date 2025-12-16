@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillForge Learning Hub</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="course.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+   <!-- Navbar -->
+    <div class="navy">
+        <nav class="navbar navbar-expand-lg  ">
+            <div class="container scontainer">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <a class="navbar-brand" href="index.html"><img src="Assets/logomain.png" height="50px" /></a>
+                <div class="CCCC">
+
+                    <a class="imghid" href="index.html"><img src="Assets/logomain.png" height="50px" /></a>
+
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <div class="subv">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 navside">
+                                <li class="nav-item">
+                                    <a class="nav-link active  " href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link  " href="course.html">Courses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="mentor.html">Mentors</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="plans.html">Plans</a>
+                                </li>
+
+                                <li class="nav-item  bell">
+                                    <div id="cart-actions"></div>
+                                        
+                                        
+                                </li>
+                                <li class="nav-item">
+                                    <a class="log" href="login.html">Log In</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="sign" href="register.html">Get Started</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+        </nav>
+    </div>
+
+      <div class="mnav">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="Assets/logomain.png" height="40px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="imghid" href="index.html"><img src="Assets/logomain.png" height="50px" /></a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link  " href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  " href="course.html">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="mentor.html">Mentors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="plans.html">Plans</a>
+                        </li>
+
+                        <li class="nav-item  bell">
+                            <a id="cart-action" href="cart.html" class="bi bi-cart3"style="display:inline-block;padding:8px 12px;border-radius:6px;color:black;text-decoration:none;" onclick="renderViewCartButton()"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="log" href="login.html">Log In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="sign" href="register.html">Get Started</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-box-arrow-in-up"></i></button>
+
+    <!-- Hero section -->
+    <div class="cov">
+        <div class="hecontainer">
+            <div class="left-section">
+                <span class="tag"><i class="bi bi-circle-fill"></i> New Design Course Available</span>
+                <h1><b>Master new skills with <span class="bold">world-class</span> mentors.</b></h1>
+                <p>Unlock your potential with expert-led courses in Design, Development, Business, and more. Learn at
+                    your
+                    own pace, from anywhere.</p>
+                <div class="buttons">
+                    <a href="course.html" class="explore-btn">Explore Courses →</a>
+                    <a href="#" class="demo-btn"><span class="arr">▶</span> View Demo</a>
+                </div>
+
+            </div>
+            <div class="right-section">
+
+                <img src="Assets/img/right.png" />
+
+            </div>
+        </div>
+    </div>
+
+    <div class="bline"></div>
+    <!--Features -->
+
+    <div class="features">
+        <section class="cad">
+            <img src="Assets/img/learn1.png" />
+            <div class="sub">
+                <h5>Learn at your pace</h5>
+                <p> Enjoy lifetime access to course on website and app.</p>
+            </div>
+        </section>
+
+        <section class="cad">
+            <img src="Assets/img/expert1.png" />
+            <div class="sub">
+                <h5>Expert Instructors</h5>
+                <p> Enjoy lifetime access to course on website and app.</p>
+            </div>
+        </section>
+
+        <section class="cad">
+            <img src="Assets/img/certified1.png" />
+            <div class="sub">
+                <h5>Get Certified</h5>
+                <p> Enjoy lifetime access to course on website and app.</p>
+            </div>
+        </section>
+
+    </div>
+    <div class="bline"></div>
+
+    <!-- Explore Course -->
+    <div class="cov">
+        <div class="explor">
+
+            <div class="top">
+                <h2><b>Explore Popular Courses</b></h2>
+                <p>Choose from over 100 online video courses with new additions published by every month.</p>
+            </div>
+            <div class="butt">
+                <button> <a href="course.html" style="text-decoration: none;"> All Courses</a></button>
+                <button>Development</button>
+                <button>Design</button>
+                <button>Data Science</button>
+                <button>Business</button>
+                <button> Marketing</button>
+                <button>Photography</button>
+            </div>
+            <div class="courses ">
+
+                 <div class="card" style="width: 16rem; height: 28rem;">
+                        <img src="Assets/img/wedev.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="cto">
+                                <div class="ctos2">
+                                    <h6 id="cbo">Development</h6>
+                                    <h6><b>⭐ 4.9</b></h6>
+                                </div>
+                                <h4>Complete Web Development Bootcamp</h4>
+                                <div class="ctos">
+                                    <h6><span><i class="bi bi-person"></i></span> Sarah Smith </h6>
+                                    <h4>$89</h4>
+                                </div>
+                            </div>
+                            <div class="cline"></div>
+                            <div class="cbo">
+                                <h6><span><i class="bi bi-clock"></i></span> 62 hours</h6>
+                                <h6> <a href="#">Enroll Here<span><i class="bi bi-arrow-right"></i></span></a></h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 16rem; height: 28rem;">
+                        <img src="Assets/img/uiux.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="cto">
+                                <div class="ctos2">
+                                    <h6 id="cbo">Design</h6>
+                                    <h6><b>⭐ 4.8</b></h6>
+                                </div>
+                                <h4>UI/UX Design Masterclass</h4>
+                                <div class="ctos">
+                                    <h6><span><i class="bi bi-person"></i></span> Mike Johnson</h6>
+                                    <h4>$75</h4>
+                                </div>
+                            </div>
+                            <div class="cline"></div>
+                            <div class="cbo">
+                                <h6><span><i class="bi bi-clock"></i></span> 45 hours</h6>
+                                <h6> <a href="#">Enroll Here<span><i class="bi bi-arrow-right"></i></span></a></h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 16rem; height: 28rem;">
+                        <img src="Assets/img/ds.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="cto">
+                                <div class="ctos2">
+                                    <h6 id="cbo">Data Science</h6>
+                                    <h6><b>⭐ 4.7</b></h6>
+                                </div>
+                                <h4>Data Science Fundamentals</h4>
+                                <div class="ctos">
+                                    <h6><span><i class="bi bi-person"></i></span> Dr.Emily Chen </h6>
+                                    <h4>$95</h4>
+                                </div>
+                            </div>
+                            <div class="cline"></div>
+                            <div class="cbo">
+                                <h6><span><i class="bi bi-clock"></i></span> 55 hours</h6>
+                                <h6> <a href="#">Enroll Here<span><i class="bi bi-arrow-right"></i></span></a></h6>
+                            </div>
+                        </div>
+                    </div>
+
+             <div class="card" style="width: 16rem; height: 28rem;">
+                        <img src="Assets/img/digi.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="cto">
+                                <div class="ctos2">
+                                    <h6 id="cbo">Marketing</h6>
+                                    <h6><b>⭐ 4.5</b></h6>
+                                </div>
+                                <h4>Digital Marketing Strateegy</h4>
+                                <div class="ctos">
+                                    <h6><span><i class="bi bi-person"></i></span> Alex Tuner </h6>
+                                    <h4>$49</h4>
+                                </div>
+                            </div>
+                            <div class="cline"></div>
+                            <div class="cbo">
+                                <h6><span><i class="bi bi-clock"></i></span> 30 hours</h6>
+                                <h6> <a href="#">Enroll Here<span><i class="bi bi-arrow-right"></i></span></a></h6>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+            <div class="vie">
+                <button type="button" class="btn btn-outline-primary"><a href="course.html"
+                        style="text-decoration: none;">View All Courses</a> </button>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="bline"></div>
+
+    <!-- Comments -->
+
+    <div class="comments">
+
+        <h5 style="text-align: center;"><b>What Our Students Say</b></h5>
+        <h6 style="text-align: center;">Join thousands of students who have transformed their careers with our courses
+        </h6>
+        <div class="comme">
+            <section class="cadc">
+                <h5>⭐⭐⭐⭐⭐</h5>
+                <h5>"The courses are well-structured and easy to follow. I landed my dream job within 3 months of
+                    completing the Full Stack course!"</h5>
+                <div class="subc">
+                    <img src="Assets/img/emil.jpg" />
+                    <div class="ccbot">
+                        <h6>Jessica Martinez</h6>
+                        <p>Software Developer</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cadc">
+                <h5>⭐⭐⭐⭐⭐</h5>
+                <h5>"Amazing instructors and great community support. The projects helped me build a strong portfolio
+                    that impressed employers."</h5>
+                <div class="subc">
+                    <img src="Assets/img/davi.jpg" />
+                    <div class="ccbot">
+                        <h6>James Wilson</h6>
+                        <p>UX Designer</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cadc">
+                <h5>⭐⭐⭐⭐⭐</h5>
+                <h5>""Best investment I've made in my career. The knowledge and skills I gained are invaluable. Highly
+                    recommend!"</h5>
+                <div class="subc">
+                    <img src="Assets/img/sara.jpg" />
+                    <div class="ccbot">
+                        <h6>Amanda Chen</h6>
+                        <p>Marketing Manager</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+    </div>
+    <div class="bline"></div>
+    <!-- Learning -->
+
+    <div class="learning">
+        <h4><b>Start Learning Today </b></h4>
+        <p>Join over 10,000 students and transform your career with expert-led courses</p>
+        <button type="button" class="buttt"><a href="register.html">Get Started Free</a></button>
+        <button type="button" class="  but1"><a href="course.html">Browse Courses</a></button>
+    </div>
+
+    <div class="bline"></div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="ftop">
+            <div class="sec1">
+                <img src="Assets/logofoot.png" style="width: 100px;" />
+                <p>Empowering learners worldwide with quality education and expert instruction.</p>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-instagram"></i>
+            </div>
+
+            <div class="sec2">
+                <p><b>Company</b></p>
+                <p>About Us </p>
+                <p>Careers</p>
+                <p>Press</p>
+                <p>Contact</p>
+            </div>
+
+            <div class="sec2">
+                <p><b>Resources</b></p>
+                <p>Blog</p>
+                <p>Help Center</p>
+                <p>Community</p>
+                <p>Became Instructor</p>
+            </div>
+
+            <div class="sec2">
+                <p><b>Legal</b></p>
+                <p>Terms of Services</p>
+                <p>Privacy Policy</p>
+                <p>Cookie Policy</p>
+                <p>Accessability</p>
+            </div>
+        </div>
+        <div class="fbot">
+            <div class="fline"></div>
+            <p> &copy; 2025 SkillForge Learning Hub. All rights reserved.</p>
+        </div>
+
+
+    </div>
+
+
+    <script>
+        const user = localStorage.getItem("user");
+        if (user) {
+            const parsedUser = JSON.parse(user);
+            document.getElementById(
+                "welcomeMessage"
+            ).innerHTML = `Hello ${parsedUser.name}`;
+            document.getElementById("logoutButton").classList.remove("hidden");
+        } else {
+            document.getElementById(
+                "welcomeMessage"
+            ).innerHTML = `Hello, please <a href='login.html'>login</a>.`;
+        }
+
+        document
+            .getElementById("logoutButton")
+            .addEventListener("click", function () {
+                localStorage.removeItem("user");
+                window.location.href = "login.html";
+            });
+    </script>
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
